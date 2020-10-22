@@ -6,11 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".Hompg">
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="481dp"
-        android:layout_height="713dp"
-        app:srcCompat="@drawable/p2"
-        tools:layout_editor_absoluteX="-34dp"
-        tools:layout_editor_absoluteY="13dp" />
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="46dp" />
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="374dp"
+        android:layout_height="257dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="446dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
