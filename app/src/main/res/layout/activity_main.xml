@@ -26,6 +26,7 @@
         android:layout_width="121dp"
         android:layout_height="67dp"
         android:background="#E68EAC"
+        android:paddingLeft="5dp"
         android:shadowColor="#E3618D"
         android:text="LOGIN"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -58,7 +59,7 @@
         app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button"
-        app:layout_constraintVertical_bias="0.166" />
+        app:layout_constraintVertical_bias="0.214" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -76,11 +77,36 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="68dp"
         android:layout_marginBottom="59dp"
-        android:text="Welcome"
+        android:text="Welcome To TestApp"
         android:textColor="#5267DD"
+        android:textSize="20dp"
         app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remember Me"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="278dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All right Reserved"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="680dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aggree to terms"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="410dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
